@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/images/akantitle.ico" />
+  <title>Akan Names</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento,Playfair+Display+SC,Sorts+Mill+Goudy &display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="container-fluid" style="background-image:url(images/akan5.jpg);">
+  <div id="heading">
+
+    <h1>Akan Names</h1>
+    <h2 id="get">Fill in the form to check out your Akan names</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-sm-6">
+        <div class="overlay">
+          <h2>What Is Akan Names?</h2>
+          <p class="paragraph" style="color: white">The Akan people of Ghana frequently name their children after the
+            day of the week they were born and
+            the order in which they were born. These "day names" have further meanings concerning the soul and
+            character of the person. Middle names have considerably more variety and can refer to their birth
+            order, twin status, or an ancestor's middle name.This naming tradition is shared throughout West
+            Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean
+            from the region that is modern-day Ghana were referred to as Coromantees.
+            Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee or Kofi,
+            Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.</p>
+          <div class="container">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="overlay">
+          <div class="container">
+            <h2>Enter Your Details Here</h2>
+            <form name="myForm" class="form" onsubmit="validate();">
+              <div class="form-group">
+                <label for="number">Year of Birth:</label>
+                <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
+              </div>
+              <div class="form-group">
+                <label for="month">Month of Birth:</label>
+                <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+              </div>
+              <div class="form-group">
+                <label for="date">Date of Birth:</label>
+                <input type="number" class="form-control" id="date" placeholder="Date of Birth" name="date">
+              </div>
+              <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+              <br>
+            </form>
+            <p id="results"> </p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="navbar">
+    <p style="color:white">CopyRight@2021 <span style="font-style: italic;">KellyJoyMukiiKinyua</span></p>
+  </div>
+
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
